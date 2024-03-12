@@ -18,7 +18,7 @@ class NotesController < ApplicationController
         if note.present?
             render json: note, root: true
         else
-            render json: {"Error": "Note not found"}, root: true
+            render json: {"Error": "Note not found"}, status: 404
         end
     end
 
@@ -27,7 +27,7 @@ class NotesController < ApplicationController
         if note.destroy
             render json: {"Destroyed": "Note deleted"}, root: true
         else
-            render json: {"Error": "Note doesn't exist"}, root: true
+            render json: {"Error": "Note doesn't exist"}, status: 404
         end
     end
 
@@ -36,8 +36,13 @@ class NotesController < ApplicationController
         if note.update(note_params)
             render json: {"Updated": "Note updated"}, root: true
         else
-            render json: {"Error": "Note doesn't exist"}, root: true
+            render json: {"Error": "Note doesn't exist"}, status: 404
         end
+    end
+
+    def fetch_data
+        data = NotesClient.new.mock_from_json
+        render json: data
     end
 
     private

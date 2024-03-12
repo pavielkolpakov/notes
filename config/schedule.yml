@@ -1,0 +1,3 @@
+fetch_notes:
+  cron: "*/2 * * * *"
+  class: "FetchNotesJob"

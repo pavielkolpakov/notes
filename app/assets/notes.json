@@ -1,0 +1,44 @@
+{
+    "notes": [
+        {
+          "title": "Grocery List",
+          "content": "Milk, Eggs, Bread, Apples, Chicken"
+        },
+        {
+          "title": "Meeting Agenda",
+          "content": "Review last meeting minutes, Discuss project updates, Assign action items, Set next meeting date"
+        },
+        {
+          "title": "Travel Itinerary",
+          "content": "Flight details: Departure at 10:00 AM, Arrival at 2:00 PM. Hotel reservation: Check-in at 3:00 PM. Sightseeing plans: Visit museum, dinner at local restaurant"
+        },
+        {
+          "title": "Recipe - Spaghetti Bolognese",
+          "content": "Ingredients: Ground beef, tomatoes, onion, garlic, spaghetti. Steps: Brown beef, sauté onions and garlic, add tomatoes, simmer sauce, cook spaghetti, serve hot"
+        },
+        {
+          "title": "Study Notes - Biology",
+          "content": "Cell structure and functions, Photosynthesis and cellular respiration, Genetics: Mendelian inheritance, Ecology: Ecosystem dynamics"
+        },
+        {
+          "title": "Book Recommendations",
+          "content": "The Alchemist by Paulo Coelho, 1984 by George Orwell, The Great Gatsby by F. Scott Fitzgerald, To Kill a Mockingbird by Harper Lee"
+        },
+        {
+          "title": "Fitness Plan",
+          "content": "Monday: Cardio - 30 minutes of running, Tuesday: Strength training - Focus on upper body, Wednesday: Rest day, Thursday: Yoga - 45 minutes of stretching and poses"
+        },
+        {
+          "title": "Weekly Budget",
+          "content": "Rent: $800, Groceries: $100, Transportation: $50, Entertainment: $50, Savings: $200"
+        },
+        {
+          "title": "Gift Ideas for Mom's Birthday",
+          "content": "Perfume, Spa voucher, Handmade photo album, Cooking class experience"
+        },
+        {
+          "title": "Project Timeline - Website Development",
+          "content": "Week 1: Planning and research, Week 2: Design wireframes, Week 3-4: Development phase, Week 5: Testing and debugging, Week 6: Launch and deployment"
+        }
+      ]
+}
