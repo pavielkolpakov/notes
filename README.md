@@ -1,24 +1,21 @@
-# README
+Using Ruby 3.2.0 and Rails 7
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+For setting up do
 
-Things you may want to cover:
+bundle install
+rails db:create
+rails db:migrate
+rails s
 
-* Ruby version
 
-* System dependencies
+Endpoints:
+GET /notes - Displaying all notes
+POST /notes body: {"note": {"title": ..., "content": ...}} - Creating new note
+POST /search_note body: {"content": ... OR "title": ...} - Searching for notes by content or title
+PUT /notes/:id body: {"title": ..., "description": ...} - Updating note by id
+DEL /notes/:id - Deleting note by id
+GET /fetch_data mock data from static json
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+For a scheduled background job sidekiq needs to be running
+Using sidekiq-cron gem fetching data job will be running every 2 minutes
