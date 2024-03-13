@@ -20,3 +20,7 @@ default: &default
 development:
   <<: *default
   database: notes_development
+
+test:
+  <<: *default
+  database: notes_test
